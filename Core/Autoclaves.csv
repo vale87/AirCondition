@@ -1,0 +1,60 @@
+Make,Model,RPIPart,OEMPart,Description,CompatiblePart,FullDescription,Fits,Image
+AMSCO/STERIS,8816,AMB001,P012258-091,BELLOWS,,,Measuring Chamber Assembly ,AMB001.GIF
+AMSCO/STERIS,8816,AMG005,P754875-091,DOOR GASKET,,"9.000"" x 9.000"" x .500 sq C/S"," 9"" Square Door ",AMG005.GIF
+AMSCO/STERIS,8816,AMG015,P014234-091,VALVE GASKET,,,Main Control Valve ,AMG015.GIF
+AMSCO/STERIS,8816,AMH021,P242886,HEATER,,"120VAC, 800W, ~18W|Flat iron style|Mounts on bottom of chamber|Includes heater, and terminal hardware",,AMH021.GIF
+AMSCO/STERIS,8816,AMH029,P014278,HEATER LINK,,,Heaters ,AMH029.GIF
+AMSCO/STERIS,8816,AMS036,P027860-091,LEVER SWITCH,,"DPDT|20A @ 125VAC; 2HP, 250VAC
+",Control Panel ,AMS036.GIF
+AMSCO/STERIS,8816A,AMB002,P033158-091,BELLOWS,"8816A, 8816M (608A), Dynaclave 613R (576A) ",,Control Housing ,AMB002.GIF
+AMSCO/STERIS,8816A,AMB028,93-90-029 / 764317-708 / 17 800 30,"LIGHT BULB (120V, .3ma)",Healthco Aristocrat (1022)|Volt/Matt,Base: NE-51/B1A bayonet|Bulb Shape: T-3-1/4|Light Socket (RPI Part #AIS034)|Lens Cap (Red) (RPI Part #AIC035)|Lens Cap (White) (RPI Part #AIC036)|Lens Cap (Amber) (RPI Part #AIC037),,AMB028.GIF
+AMSCO/STERIS,8816A,AMG006,P074374-091,DOOR GASKET,"8816A, 8816D, 8816M (608A)","11.000"" OD x .375"" x .250"" C/S"," 8"" Square Door ",AMG006.GIF
+AMSCO/STERIS,8816A,AMG013,P047003-091,FIBER GASKET, 8816A,"6 per package|875"" ID x 1.250"" OD x .065"" thk",Steam Trap Assembly,AMG013.GIF
+AMSCO/STERIS,8816A,AMG014,P454894-001,COPPER-FIBER GASKET,8816A ,".338"" ID x .505 OD x .062"" thk",Steam Trap Assembly ,AMG014.GIF
+AMSCO/STERIS,8816A,AMG034,P093077-001,PRESSURE/TEMPERATURE GAUGE,8816A ,"Dual Scale: 212? F -278? F; 0-60 PSIG|Center back mount, 1/8"" MPT|2-1/2"" dia. Dial|2-5/8"" dia. panel cut-out|Includes guage, mounting bracket and hardware", Front Panel,AMG034.GIF
+AMSCO/STERIS,8816A,AMH018,P040894-091 / 300016,HEATING ELEMENT ASSEMBLY," 8816A, 8816M (608A), Majestic V-8080, V-8000, VR-816 ","800 W, 120VAC, ~18 ohms|Includes heating element, Mounting and Connecting Hardware (RPI Part #AMH019)|Mounts inside chamber",,AMH018.GIF
+AMSCO/STERIS,8816A,AMH019,(OEM Part # Not Available),HEATER MOUNTING & CONNECTING HARDWARE,"8816A, 8816M (608A)","(2) #6-32 Hex Nut|(2) #6 Flat Washer|(2) #6 Terminal Cup Washer|(2) 7/16-20 Jam Nut|(2) 7/16"" Flat Washer|2) 7/16"" Crush Washer",Heating Element Assembly (RPI Part #AMH018) ,AMH019.GIF
+AMSCO/STERIS,8816A,AMH020,P150384-001,STEAM TRAP HEAD, 8816A ,,Steam Trap Assembly ,AMH020.GIF
+AMSCO/STERIS,8816A,AMK022,(OEM Part # Not Available),OPERATING VALVE KIT,"8816A, 8816M (608A), Dynaclave 613R (576A) ",Upper Port (RPI Part #AMP032)|Lower Port (RPI Part #AMP033)|O-Rings (RPI Part #RPO329), Operating Valve Body ,AMK022.GIF
+AMSCO/STERIS,8816A,AMK023,(OEM Part # Not Available),STEAM TRAP KIT,8816A ,Fiber Gasket ((RPI Part #AMG013)|Copper-Fiber Gasket (RPI Part #AMG014)|Teflon O-ring (RPI Part #RPO330)|eam Trap Head (RPI Part #AMH020),,AMK023.GIF
+AMSCO/STERIS,8816A,AMP032,P033240-091,UPPER PORT,"8816A, 8816M (608A), Dynaclave 613R (576A)",Operating Valve Kit (RPI Part #AMK022),Operating Valve,AMP032.GIF
+AMSCO/STERIS,8816A,AMP033,P033239-091,LOWER PORT,"8816A, 8816M (608A), Dynaclave 613R (576A) ",Operating Valve Kit (RPI Part #AMK022),Operating Valve ,AMP033.GIF
+AMSCO/STERIS,8816A,AMT003,P093073-001,THERMOSTAT SWITCH,8816A ,"Operates 220? F-350? F|Includes controller, bulb, capillary tubes, and mounting hardware|Controller mounts to control panel",,AMT003.GIF
+AMSCO/STERIS,8816A,RPO329,P033241-091,O-RING," 8816A, 8816M (608A), Dynaclave 613R (576A","6 per package|Material: Teflon, Duro: N/A|.239"" ID x .379"" OD x .070"" C/S|Operating Valve Kit (RPI Part #AMK022)",Operating Valve ,RPO329.GIF
+AMSCO/STERIS,8816A,RPO330,P033155-091,O-RING,"8816A, 8816M (608A), Dynaclave 613R (576A) ","6 per package|Material: Teflon, Duro: N/A|.176"" ID x .316"" OD x .070"" C/S",Control Housing and Steam Trap Assembly,RPO330.GIF
+AMSCO/STERIS,8816D,AMG006,P074374-091,DOOR GASKET,"8816A, 8816D, 8816M (608A) ","11.000"" OD x .375"" x .250"" C/S","8"" Square Door",AMG006.GIF
+AMSCO/STERIS,8816M (608A),AMB002,P033158-091,BELLOWS,"8816A, 8816M (608A), Dynaclave 613R (576A) ",,Control Housing,AMB002.GIF
+AMSCO/STERIS,8816M (608A),AMB028,93-90-029 / 764317-708 / 17 800 30,"LIGHT BULB (120V, .3ma)","660, 8816A, 8816M (608A), C-86, DENTAL LAMPS & BULBS, Dynaclave 613R (576A), Mark III ",Base: NE-51/B1A bayonet|Bulb Shape: T-3-1/4|Light Socket (RPI Part #AIS034)|Lens Cap (Red) (RPI Part #AIC035)|Lens Cap (White) (RPI Part #AIC036)|Lens Cap (Amber) (RPI Part #AIC037)|Healthco Aristocrat (1022)|Volt/Matt,All Panel Light Sockets ,AMB028.GIF
+AMSCO/STERIS,8816M (608A),AMG006,P074374-091,DOOR GASKET,"8816A, 8816D, 8816M (608A) ","11.000"" OD x .375"" x .250"" C/S","8"" Square Door ",AMG006.GIF
+AMSCO/STERIS,8816M (608A),AMG011,P033153-091,CONTROL HOUSING GASKET,"8816M (608A), Dynaclave 613R (576A) ",,Main Control Housing ,AMG011.GIF
+AMSCO/STERIS,8816M (608A),AMH018,P040894-091 / 300016,HEATING ELEMENT ASSEMBLY,"8816A, 8816M (608A), Majestic V-8080, V-8000, VR-816 ","800 W, 120VAC, ~18 ohms|Includes heating element, Mounting and Connecting Hardware (RPI Part #AMH019)|Mounts inside chamber",,AMH018.GIF
+AMSCO/STERIS,8816M (608A),AMH019,(OEM Part # Not Available),HEATER MOUNTING & CONNECTING HARDWARE,"8816A, 8816M (608A) ","(2) #6-32 Hex Nut|(2) #6 Flat Washer|(2) #6 Terminal Cup Washer|(2) 7/16-20 Jam Nut|(2) 7/16"" Flat Washer|2) 7/16"" Crush Washer",Heating Element Assembly (RPI Part #AMH018) ,AMH019.GIF
+AMSCO/STERIS,8816M (608A),AMK022,(OEM Part # Not Available),OPERATING VALVE KIT," 8816A, 8816M (608A), Dynaclave 613R (576A)",Upper Port (RPI Part #AMP032)|Lower Port (RPI Part #AMP033)|O-Rings (RPI Part #RPO329),Operating Valve Body ,AMK022.GIF
+AMSCO/STERIS,8816M (608A),AML024,P041083-091,PILOT LIGHT,"8816M (608A), Dynaclave 613R (576A) ","Red - ""Power On""|120VAC|Requires bulb (RPI Part #AMB028)|Includes socket, lens, washer, nut, and (2) screw",Control Panel ,AML024.GIF
+AMSCO/STERIS,8816M (608A),AML025,P041084-091,PILOT LIGHT," 8816M (608A), Dynaclave 613R (576A) ","Clear - ""Thermostat On""|120VAC|Requires bulb (RPI Part #AMB028)|Includes socket, lens, washer, nut, and (2) screw",Control Panel ,AML025.GIF
+AMSCO/STERIS,8816M (608A),AMP032,P033240-091,UPPER PORT,"8816A, 8816M (608A), Dynaclave 613R (576A) ",Operating Valve Kit (RPI Part #AMK022),Operating Valve ,AMP032.GIF
+AMSCO/STERIS,8816M (608A),AMP033,P033239-091,LOWER PORT,"8816A, 8816M (608A), Dynaclave 613R (576A) ",Operating Valve Kit (RPI Part #AMK022),Operating Valve ,AMP033.GIF
+AMSCO/STERIS,8816M (608A),AMS035,P045325-091,ROCKER SWITCH,"8816M (608A), VR-816 ",DPDT|15A @ 125VAC,Control Panel ,AMS035.GIF
+AMSCO/STERIS,8816M (608A),AMS038,M037103-091,TEFLON® VALVE SEAT,"8816M (608A), Dynaclave 613R (576A) ",,Control Housing ,AMS038.GIF
+AMSCO/STERIS,8816M (608A),AMT037,P033149-091,THERMOSTAT CONTROL,"8816M (608A), Dynaclave 613R (576A) ",Range: 220? F - 350? F,Control Housing Assembly ,AMT037.GIF
+AMSCO/STERIS,8816M (608A),AMT039,P033115-091,TIMER ASSEMBLY/MECHANICAL TIME SWITCH (60 MINUTE)," 8816M (608A), Dynaclave 613R (576A) ","Time & Alert Specs:
+60 Minute, Bell Timer |Motor Specs:
+NONE |Switch Specs:
+20A @ 120-240 VAC SPS|Mount Specs:
+3/8-24 x 1/4"" lg. Bushing |Shaft Specs:
+3/16"" dia. x 7/16"" lg. Double Flat |Dimensions Specs:
+2-9/16"" dia. x 1-3/4"" DP. |Includes (2) each Terminal Screw ",Front Control Panel ,AMT039.GIF
+AMSCO/STERIS,8816M (608A),RPO329,P033241-091,O-RING,"8816A, 8816M (608A), Dynaclave 613R (576A) ","6 per package|Material: Teflon, Duro: N/A|.239"" ID x .379"" OD x .070"" C/S|Operating Valve Kit (RPI Part #AMK022)",Operating Valve ,RPO329.GIF
+AMSCO/STERIS,8816M (608A),RPO330,P033155-091,O-RING,"8816A, 8816M (608A), Dynaclave 613R (576A)","6 per package|Material: Teflon, Duro: N/A|.176"" ID x .316"" OD x .070"" C/S",Control Housing and Steam Trap Assembly ,RPO330.GIF
+AMSCO/STERIS,900 Series,AMC106,P764316-149,COIL,900 Series ,120V; 9.1 W @ 60 Hz.|Solenoid Valve Complete (RPI Part #AMV104)|Repair Kit (RPI Part #AMV105) , Fill and Vent Solenoids ,AMC106.GIF
+AMSCO/STERIS,900 Series,AMG091,P129357-660,PRESSURE GAUGE, 900 Series ,"0-60 PSIG|Center back mount, 1/8"" MPT|1-1/2"" dia. Dial|1-9/16"" dia. panel cut-out|Includes guage and mounting bracket",Front Panel ,AMG091.GIF
+AMSCO/STERIS,900 Series,AMG095,P146653-007,DOOR GASKET, 900 Series ,"~10.250"" OD", Door ,AMG095.GIF
+AMSCO/STERIS,900 Series,AMH096,P093902-461,HEATING ELEMENT,900 Series ,"120VAC, 1500W, (~9?)|Mounts to chamber|Includes hardware and (2) #8 Ring Terminal (High Temperature) (RPI Part #RPT019)|When replacing this part, it is also a good time to replace the Overtemp Switch (RPI Part #AMS098)",,AMH096.GIF
+AMSCO/STERIS,900 Series,AMM093,P146653-021,TRIAC MODULE,900 Series ,Mounts to inner wall, ,AMM093.GIF
+AMSCO/STERIS,900 Series,AMS098,P129357-647,REPLACED BY PCT042,900 Series ,Operates 220? F-350? F|Mounts to diffuser|Opens @ 295?F,,AMS098.GIF
+AMSCO/STERIS,900 Series,AMT092,P764320-946,THERMISTOR KIT,900 Series ,"24Kohm @ 77? F|Includes thermistor, and compression fitting|Mounts in chamber",,AMT092.GIF
+AMSCO/STERIS,900 Series,AMV097,P093902-453 / 4205055 / 1881007,SAFETY VALVE (38 PSI),"900 Series, Delta 10"" (AF), Delta 8"" (AE), Delta Q10, Delta Q8, Delta XL10, Delta XL8, Validator 10, Validator 8, Validator Plus 10, Validator Plus 8 ","Brass; 1/2"" MPT x 1/2"" FPT|Cracking Pressure: 38 PSI",Chamber,AMV097.GIF
+AMSCO/STERIS,900 Series,AMV104,P093902-452,SOLENOID VALVE COMPLETE,900 Series ,"1/8 FPT, Piston Style Valve|Brass body, EPDM Seal|2 Way ; N. C.|120 VAC|Replacement Coil (RPI Part #AMC106)|Also Available: Solenoid Valve Repair Kit (RPI Part #AMV105)",,AMV104.GIF
+AMSCO/STERIS,900 Series,AMV105,P764320-920,PISTON STYLE REPAIR KIT," 900 Series, Eagle 10 & 10 Plus ",Includes: All parts as shown|EPDM Seal|This Repair Kit is for rebuilding the original AMSCO Solenoid Valves (RPI Part #'s AMV104 and AMV170) which are no longer available,Fill and Vent Solenoid Valves ,AMV105.GIF
+AMSCO/STERIS,900 Series,PCT042,004108 / P129357-647,OVERHEAT THERMOSTAT,"900 Series, OCM, OCR, OCR+, Sentry",Factory set to open at 295? F.|Replaces old ( RPI Part #AMS098),,PCT042.GIF
+AMSCO/STERIS,900 Series,RPT019,(OEM Part # Not Available),#8 RING TERMINAL (HIGH TEMPERATURE),900 Series ,20 per package|Size: #8 Ring Terminal|Awg Range: #16-14 Awg|Also included in Crimp-On Wire Connector Kit ( RPI Part #RPK406),,RPT019.GIF
