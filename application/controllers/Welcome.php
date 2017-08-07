@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
-    public function index()
+    public function index1()
     {
 	    $this->load->view("header");
           $this->load->view("carousel");
@@ -19,7 +19,7 @@ class Welcome extends CI_Controller {
     }
     public function services()
     {
-		  $this->load->view("header");
+	    $this->load->view("header");
           $this->load->view("services");
           $this->load->view("footer");
     }
