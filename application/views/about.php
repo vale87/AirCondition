@@ -1,4 +1,6 @@
-    <div class="about">
+     <br>
+             <a name="about">p</a>  
+    <div id="about">
        <div class="content"> 
           <h2>about us</h2>
           <p>

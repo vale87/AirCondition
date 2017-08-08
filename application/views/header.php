@@ -7,59 +7,61 @@
 	
 	
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">    
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"> 
+     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/carousel.css">
 
-
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0XjBdO-_XAL87OVmC4evqxsu0rCkL6xE&callback=initMap">  </script>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script>
+    <script type="text/javascript">
+      function initMap() {
+        var work = {lat: 33.989883, lng: -118.435518};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: work
+        });
+        var marker = new google.maps.Marker({
+          position: work,
+          map: map
+        });
+      }
         $(document).ready(function() {
             $('.carousel').carousel({
             interval: 6000
             })
         });
-          jQuery(function($) {
-                var open = false;
 
-                function resizeMenu() {
-                    if ($(this).width() < 768) {
-                        if (!open) {
-                            $("#navigation").hide();
-                        }
-                        $("#menu-button").show();
-                    }
-                    else if ($(this).width() >= 768) {
-                        if (!open) {
-                            $("#navigation").show();
-                        }
-                        $("#menu-button").hide();
-                    }
-                }
+$(document).ready(function(){
 
-                function setupMenuButton() {
-                    $("#menu-button").click(function(e) {
-                        e.preventDefault();
-
-                        if (open) {
-                            $("#navigation").fadeOut();
-                            $("#menu-button").toggleClass("selected");
-                        }
-                        else {
-                            $("#navigation").fadeIn();
-                            $("#menu-button").toggleClass("selected");
-                        }
-                        open = !open;
-                    });
-                }
-
-
-                $(window).resize(resizeMenu);
-
-                resizeMenu();
-                setupMenuButton();
-            });
+	//material contact form
+	$('.contact-form').find('.form-control').each(function() {
+	  var targetItem = $(this).parent();
+	  if ($(this).val()) {
+		$(targetItem).find('label').css({
+		  'top': '10px',
+		  'fontSize': '14px'
+		});
+	  }
+	})
+	$('.contact-form').find('.form-control').focus(function() {
+	  $(this).parent('.input-block').addClass('focus');
+	  $(this).parent().find('label').animate({
+		'top': '10px',
+		'fontSize': '14px'
+	  }, 300);
+	})
+	$('.contact-form').find('.form-control').blur(function() {
+	  if ($(this).val().length == 0) {
+		$(this).parent('.input-block').removeClass('focus');
+		$(this).parent().find('label').animate({
+		  'top': '25px',
+		  'fontSize': '18px'
+		}, 300);
+	  }
+	})
+	
+});
     </script>
 </head>
 <body>
@@ -79,16 +81,16 @@
                         <a href=<?php echo base_url(); ?>>Home</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href=<?php echo base_url(); ?>#about>About</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index/about">Services</a>
+                        <a href="<?php echo base_url(); ?>index.php/index/services">Services</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index/services">Products</a>
+                        <a href="<?php echo base_url(); ?>index.php/index/products">Products</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index/contact">Contact</a>
+                        <a href="<?php echo base_url(); ?>index.php/index/contact">Contact</a>
                     </li>
                 </ul>
             </nav>
