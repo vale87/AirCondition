@@ -1,6 +1,6 @@
 	<div id="contact">
 		<div class="content row">
-			<div class="article col-sm-12 col-md-6">
+			<div class="col-sm-12 col-md-6">
 				<h2>Contact Us</h2>
 				<ul>
 					<li>
@@ -16,7 +16,7 @@
 						<span>Address :</span> 7177 Saint Michael Drive, Los Angeles, CA 90048
 					</li>					
 				</ul>
-				<div id="map"></div>
+				<div id="map" class=".hidden-xs"></div>
 			</div>
 			<div class="form col-sm-12 col-md-6">
 				<section class="contact-wrap">

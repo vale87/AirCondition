@@ -1,11 +1,17 @@
 /* Carousel Fading slide */
 
-.carousel {
-  width: 100%;
-
+.carousel-inner > .item {
+  height: 70vh;
 }
-.carousel-inner img{
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
+  min-height: 100%;
 }
 
 .carousel-fade .carousel-inner { background: #000; }

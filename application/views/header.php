@@ -84,13 +84,13 @@ $(document).ready(function(){
                         <a href=<?php echo base_url(); ?>#about>About</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index.php/index/services">Services</a>
+                        <a href="<?php echo base_url(); ?>index.php/welcome/services">Services</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index.php/index/products">Products</a>
+                        <a href="<?php echo base_url(); ?>index.php/welcome/products">Products</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index.php/index/contact">Contact</a>
+                        <a href="<?php echo base_url(); ?>index.php/welcome/contact">Contact</a>
                     </li>
                 </ul>
             </nav>
