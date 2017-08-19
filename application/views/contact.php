@@ -14,7 +14,10 @@
 					</li>
 					<li>
 						<span>Address :</span> 7177 Saint Michael Drive, Los Angeles, CA 90048
-					</li>					
+					</li>			
+					<li>
+						<span>License Number:</span> CAC1817574	
+					</li>
 				</ul>
 				<div id="map" class=".hidden-xs"></div>
 			</div>

@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Air Condition</title>
+	<title>J.R.H. General Services, Corp</title>
 	
 	
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -11,22 +11,24 @@
      <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/carousel.css">
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0XjBdO-_XAL87OVmC4evqxsu0rCkL6xE&callback=initMap">  </script>  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0XjBdO-_XAL87OVmC4evqxsu0rCkL6xE&callback=initMap"
+    async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-      function initMap() {
-        var work = {lat: 33.989883, lng: -118.435518};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: work
-        });
-        var marker = new google.maps.Marker({
+        var map;
+        function initMap() {
+            var work = {lat: 33.989883, lng: -118.435518};
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: work,
+            zoom: 15
+            });
+            var marker = new google.maps.Marker({
           position: work,
           map: map
         });
       }
-        $(document).ready(function() {
+            $(document).ready(function() {
             $('.carousel').carousel({
             interval: 6000
             })
@@ -69,13 +71,13 @@ $(document).ready(function(){
     <div id="header">
         <div class="content row between-xs middle-xs">            
     
-            <div class="logo col-xs-4">
-                <h1><a href="index.html">Air Condition</a></h1>
+            <div class="logo col-xs-3">
+                <h1><a href="index.html">J.R.H.</a></h1>
             </div><!-- logo -->
 
           
 
-            <nav  class="navigation col-xs-6" id="navigation">
+            <nav  class="navigation col-xs-7" id="navigation">
                 <ul id="nav">
                     <li class="selected">
                         <a href=<?php echo base_url(); ?>>Home</a>
@@ -87,15 +89,12 @@ $(document).ready(function(){
                         <a href="<?php echo base_url(); ?>index.php/welcome/services">Services</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>index.php/welcome/products">Products</a>
-                    </li>
-                    <li>
                         <a href="<?php echo base_url(); ?>index.php/welcome/contact">Contact</a>
                     </li>
                 </ul>
             </nav>
 
-            <div class="contact col-xs-2 ">
+            <div class="contact col-xs-2">
                 1-800-000-0000           
             </div>
         </div>

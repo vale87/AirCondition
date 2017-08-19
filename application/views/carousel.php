@@ -6,43 +6,45 @@
 
       <!-- Slide 1 : Active -->
       <div class="item active">
-        <img src="http://acrepair-corpuschristi.com/wp-content/uploads/2015/08/Residential-Corpus-Chrisit-AC-Repair.png" alt="">
+        <img src="https://modernize.com/wp-content/uploads/2015/10/amana-hvac.jpg" alt="">
         <div class="carousel-caption black">
-          <h1>$45</h1>
-          <h2>AC Diagnostic Special</h2>          
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <h1>$2,099</h1>
+          <h2>Servicio de Instalacion</h2>          
+          <p>Goodman de 5T con 14 SEER Standard Efficency</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide1 -->
 
+      <!-- Slide 4 -->
+      <div class="item ">
+        <img src="https://hvacdealers.com/wp-content/uploads/2015/07/Air-Conditioning-Cost-1024x768.jpg" alt="">
+        <div class="carousel-caption black">
+          <h2>Ahorre con nosotros</h2>
+          <h3>Instalacion, Limpieza y Reparacion</h3>  
+          <p>Tenemos los mejores precio en todo miami</p>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /Slide4 -->
+
       <!-- Slide 2 -->
       <div class="item ">
-        <img src="http://onehourcomfort.com/images/inner/air_conditioning_repair.jpg" alt="">
+        <img src="http://integrityairpros.com/wp-content/uploads/2016/11/hvac-service-jasper-1.jpg" alt="">
         <div class="carousel-caption black">
-          <h2>$79</h2>
-          <h3>AC System Tune Up</h3>  
-          <p>Etiam porta sem malesuada magna mollis euismod.</p>
+          <h2>$2,799</h2>
+          <h3>Servicio de Instalacion</h3>  
+          <p>Rheem de 5T con 16 SEER Standard Efficency</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide2 -->
 
       <!-- Slide 3 -->
       <div class="item ">
-        <img src="http://banduae.com/wp-content/uploads/2014/07/heating-and-air-conditioning-repair.jpg" alt="">
+        <img src="http://sketchqatar.com/wp-content/uploads/2015/09/Duct-Cleaning-page.jpg" alt="">
         <div class="carousel-caption black">
-          <h2>15%</h2>
-          <h3>Maintenance Discount</h3>  
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+          <h2>$150</h2>
+          <h3>Servicio de Limpieza</h3>  
+          <p>Limpieza de Ductos</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide3 -->
 
-      <!-- Slide 4 -->
-      <div class="item ">
-        <img src="http://www.weeks-service.com/images2011/alvin/air-conditioner-service.jpg" alt="">
-        <div class="carousel-caption black">
-          <h2>1500 save</h2>
-          <h3>Old AC Unit Trade in Special</h3>  
-          <p>Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-        </div><!-- /.carousel-caption -->
-      </div><!-- /Slide4 -->
+
 
     </div><!-- /.carousel-inner -->
 
