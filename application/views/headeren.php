@@ -75,7 +75,7 @@ $(document).ready(function(){
      
     <div id="header">
     <div id="language" class=" float_right">
-    <a href="<?php echo base_url(); ?>index.php/en"> <span class="glyphicon glyphicon-refresh"></span> Ingles</a>
+    <a href=<?php echo base_url(); ?>><span class="glyphicon glyphicon-refresh"></span> Español</a>
         </div>
         <div class="contentheader row between-xs middle-xs">            
 
@@ -84,22 +84,22 @@ $(document).ready(function(){
             </div><!-- logo -->
 
             <div class="contact col-xs-6">
-                <h3>Ventas:<span><?=$contact->phone?></span> Adrian</h3>       
+                <h3><span><?=$contact->phone?></span> Adrian</h3>       
             </div>
         </div>
         <nav  class="navigation" id="navigation">
                 <ul id="nav" class="nav">
                     <li <?php if ($selected=="home") echo "class='selected'";?>>
-                        <a href=<?php echo base_url(); ?>>Inicio</a>
+                        <a href="<?php echo base_url(); ?>index.php/en">Home</a>
                     </li>
                     <li>
-                        <a href=<?php echo base_url(); ?>#about>nosotros</a>
+                        <a href=<?php echo base_url(); ?>#about>About</a>
                     </li>
                     <li <?php if ($selected=="services") echo "class='selected'";?>>
-                        <a href="<?php echo base_url(); ?>index.php/welcome/services">Servicios</a>
+                        <a href="<?php echo base_url(); ?>index.php/en/services">Services</a>
                     </li>
                     <li <?php if ($selected=="contact") echo "class='selected'";?>>
-                        <a href="<?php echo base_url(); ?>index.php/welcome/contact">Contactos</a>
+                        <a href="<?php echo base_url(); ?>index.php/en/contact">Contact</a>
                     </li>
                 </ul>
             </nav>

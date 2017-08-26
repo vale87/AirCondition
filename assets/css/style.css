@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo|Changa+One|Comfortaa');
 
 body{
-    background: #4B86B7;
+    background: white;
 	line-height: 1;
-	font-size: 14px;
+	font-size: 1.3vw;
 	font-family: 'Comfortaa', cursive;
-	color: #ffffff;
+	color: black;
 }
 h1, h2 , h3{
 		font-family: 'Changa One', sans-serif;	
@@ -16,7 +16,7 @@ h1, h2 , h3{
     margin-bottom: 0px;
 }
 h1{
-	font-size: 5vw;
+	font-size: 6vw;
 		text-transform: uppercase; 
 }
 h2{
@@ -24,19 +24,26 @@ h2{
 	font-size: 3.5vw;
 	text-align: center;
 	text-transform: uppercase; 
+
 }
 h3{
 font-size: 2.5vw;
 font-family: 'Arimo', sans-serif;
 text-transform: capitalize;
-margin-bottom: 2vw;
 }
 ul{
 	list-style-type: none;
+	padding: 0;
 }
+
 p{
 	line-height: 1.2;
+	text-align: justify;
 }
+span{
+	font-weight: bold;
+}
+    
 .content{
     margin-left: 10%;
     margin-right: 10%;
@@ -47,27 +54,44 @@ p{
 .float_left{
 	float: left;
 }
+.float_right{
+	float: right;
+}
 .black{
 	background-color: rgba(0,0,0,0.4);
 }
+#language{
+	position: absolute;
+	margin-left: 90%;
+}
+#price{
+	font-size: 2.4vw;
+}
 #header{
-    height: 5vw;
+    height: 7vw;
 	padding-top: 1%;
 	position: fixed;
-	background-color: #21496A;
+	background-color: #C6D3E3;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	z-index:100;
+
 }
-#header .logo{
-	background-color: #21496A;
-	border-radius: 50%;
+#header .nav{
+	background-color: #C6D3E3;
+	border-radius: 30%;
+	box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.1);
 }
 #header .logo a {
-	color: #82C6FF;
+	color: #E74C3C;
 	display: block;
-	padding-left: 20%;
+	padding-left: 5%;
+}
+#header > div > div.logo.col-xs-6 > h3 > a > span{
+	font-size: 4vw;
+	text-transform: uppercase;
+	font-family: 'Changa One', sans-serif;
 }
 #header .navigation{
   font-family: 'Arimo', sans-serif;  
@@ -75,7 +99,8 @@ p{
 #header .navigation ul {
 
     padding-left: 0px;
-    margin-bottom: 0px;
+		margin-bottom: 0px;
+		text-align: center;
 }
 #header .navigation ul li{
     display: inline-block;
@@ -84,7 +109,7 @@ p{
 	margin-left: 1vw;
 }
 #header .navigation ul li a{
-	color: #82C6FF;	
+	
 	font-size: 1.5vw;
 	letter-spacing: 0.05em;
 	line-height: 30px;
@@ -92,41 +117,35 @@ p{
 	text-transform: uppercase;
     display: inline-block;
   	transition: 0.3s ease;
-  	color: #ffffff;
+  	color: black;
     border-bottom: 4px solid transparent;
-  	padding: 8px 0;
+		padding: 8px 0;
+		background-color: #C6D3E3
 
 }
 
 #header ul li a:hover{
-	color:black;
-  border-bottom: 4px solid #82C6FF;
+	color:#E74C3C;
+  border-bottom: 4px solid #E74C3C;
   font-weight:bold;
   padding: 0px 0; 
 }
 
 #header ul li.selected a {
-	color:black;
+	color:#E74C3C;
 	font-weight:bold; 
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #E74C3C;
   padding: 0px 0; ;
 }
 #header .contact{
 	font-size: 1.5vw;
+	color: #E74C3C;
 }
 
 
 #body{
 	min-height: 500px;
 	padding-top: 5%;
-}
-#body .content{
-  padding-top: 4vw;
-  padding-bottom: 4vw;
-}
-
-#body .services{
-  background:white;
 }
 
  #divimg{
@@ -138,10 +157,19 @@ p{
 	margin:auto;
 	background: white;
 }
-#services h3{
-
-
-	margin-top: 4vw;
+.services {
+	padding-bottom: 2vw;
+	padding-top: 4vw;
+	border-top: 2vw solid white;
+	border-bottom: 2vw solid white;
+	border-right: 2vw solid white;
+	background: #3498DB
+}
+.servicesreset {
+	margin-top: 5vw;
+	padding-bottom: 2vw;
+	padding-top: 4vw;
+	background: white
 }
 #services #divimg img{
 	width: 100%;
@@ -151,16 +179,19 @@ p{
 	opacity: 0.4;
 }
 #services p{
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 #services span{
 	font-size: 1em;
 	font-weight: bold;
 	color:black
 }
+#detail_services{
+	margin-top: 5%;
+	margin-left: 2%;
+}
 #detail_services .h2_services{
 	text-align: left;
-	margin-bottom: 2%;
 }
 #detail_services #divimg{
 	margin: 0;
@@ -184,29 +215,44 @@ p{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10%;
 }
-
-#logo_mark{
-	width: 100%;
-	height: 6vw;
+#item_services > div > img{
+	width: 14vw;
+	height: 5vw;
+	margin-bottom: 1vw;
 }
-
-
 #about{
 	background: #fff;
-	color: #21496A
+	color: black;
+	padding-bottom: 2vw;
+	padding-top: 4vw;
 }
+
 #about p{
-	text-align: center;
+	text-align: justify;
+	font-size: 1.5vw;
 }
 #footer {
-	background: #21496A;
+	background: #C6D3E3;
 	border-top: 1px solid #9bd9e0;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
 	margin: 0;
 	padding: 0;
 	clear:both;
 }
 #footer h3{
 	margin-top: 0px;
+	margin-bottom: 2%;
+}
+#footer li{
+	margin-bottom:2%;
+}
+#contact{
+	padding-bottom: 2vw;
+	padding-top: 4vw;
+}
+#contact > div > div.col-sm > ul > li:nth-child(5){
+	font-size: 0.5vw;
 }
 #footer .social a{
 	background: url(../images/icons.jpg) no-repeat;
@@ -245,43 +291,33 @@ p{
 }
 #footer .content{
   padding-top: 4vw;
-  padding-bottom: 4vw;
+  padding-bottom: 1vw;
 }
-#myModalServices{
+.myModal{
 	color: black;
 }
-#myModalServices > div.modal-dialog > div > div.modal-body{
-	margin-top: 2%;
+.myModal h3{
+	margin:0;
 }
-#myModalServices > div.modal-dialog > div > div.modal-body > img
-{
-    width: 25%;
-    float: left;
-	margin-right: 2%;
-	margin-bottom: 2%;
-
+.myModal > div.modal-dialog > div > div.modal-body{
+	background-size: 100% 100%;
+	padding: 0;
 }
-#myModalServices > div.modal-dialog > div > div.modal-body > h4{
-	clear:left;
+#myModal_Install > div.modal-dialog > div > div.modal-body{
+	background: url(../images/hairstyle1.jpg) top center;
 }
-#myModalServices > div.modal-dialog > div > div.modal-footer > h4{
-	float:left;
+#myModal_Repair > div.modal-dialog > div > div.modal-body{
+	background: url(../images/hairstyle3.jpg) top center;
 }
-#myModalServices ul{
-			list-style-image: url(../images/list.png);
-		margin-bottom: 20%;
+#myModal_Clean > div.modal-dialog > div > div.modal-body{
+	background: url(../images/hairstyle2.jpg) top center;
 }
-#myModalServices ul li{
-
-		float:left;
-	width: 15em; 
-	margin: 0.5%;
+.myModal > div.modal-dialog > div > div.modal-body >div.fondo{
+	background: RGBA(16,36,69,0.9);
+	padding: 5%;
 }
-#myModalServices .modal-footer{
-	clear:left;
-}
-#myModalServices > div.modal-dialog > div > div.modal-footer{
-	padding-top: 0%;
+.myModal > div.modal-dialog > div > div.modal-body >div.fondo > p{
+	color:white;
 }
 #products{
 	 color: black;
@@ -323,6 +359,7 @@ background: rgba(75,134,183,0.4);
 	color: black;
 }
 #contact h2{
+	margin-top: 6%;
 	margin-bottom: 4%;
 }
 #contact li{

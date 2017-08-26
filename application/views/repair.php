@@ -1,8 +1,8 @@
 
 <div id="detail_services">
     <div class="content">
-        <h2 class="h2_services">Reparacion</h2>
-            <div class="row">
+        <h2 class="h2_services wow fadeInDown">Reparacion</h2>
+            <div class="row wow fadeInDown">
                 <div id="divimg" class="col-xs-3">
                     <img id="img_details" src="<?php echo base_url(); ?>/assets/images/hairstyle3.jpg" alt="">
                 </div>    

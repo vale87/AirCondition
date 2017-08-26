@@ -3,11 +3,11 @@
 	
 	<div id="footer">
 		<div class="content">
-			<h2>CONTACTENOS 24/7</h2>
+			<h2>CONTACT US 24/7</h2>
 			<div class="row between-xs">
 				<div class="col-xs-6">
-					<h3>LLAMANOS</H3>
-						<h3>Ventas: <span><?=$contact->phone?></span></h3>
+					<h3>Customer Services: </H3>
+						<h3><span><?=$contact->phone?></span></h3>
 				</div>
 		
 				<div class="col-xs-2">

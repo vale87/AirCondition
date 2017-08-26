@@ -1,8 +1,8 @@
 
 <div id="detail_services">
     <div class="content">
-        <h2 class="h2_services">Limpieza</h2>
-            <div class="row">
+        <h2 class="h2_services wow fadeInDown">Limpieza</h2>
+            <div class="row wow fadeInDown">
                 <div id="divimg" class="col-xs-3">
                     <img id="img_details" src="<?php echo base_url(); ?>/assets/images/hairstyle2.jpg" alt="">
                 </div>    
@@ -18,7 +18,14 @@
                       </p>
                 </div>      
             </div>    
-
+            <?php  foreach ($query as $row): ?>        
+        <div id="item_services" class="float_left wow zoomIn">
+            <div class="logo_mark">
+                <p><span>Servicio: </span><?=$row->servicio?></p>
+                <p><span id="price">$ <?=$row->price?> </span>+taxes</p>
+            </div>
+        </div>
+        <?php endforeach;?>
         
     </div>
 </div>

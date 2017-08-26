@@ -1,7 +1,7 @@
 /* Carousel Fading slide */
 
 .carousel-inner > .item {
-  height: 70vh;
+  height: 40vw;
 }
 .carousel-inner > .item > img {
   position: absolute;
