@@ -3,6 +3,9 @@
 .carousel-inner > .item {
   height: 40vw;
 }
+#myCarousel p {
+  text-align: center;
+}
 .carousel-inner > .item > img {
   position: absolute;
   top: 50%;

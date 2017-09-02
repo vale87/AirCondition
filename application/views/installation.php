@@ -13,7 +13,8 @@
                 Nuestros técnicos toman todas las precauciones para instalar de forma segura y 
                 eficaz su unidad con la experiencia y saber cómo se espera. 
                 También nos esforzamos para que se instale el mismo día o al día siguiente, 
-                para que pueda superar ese calor de la Florida. Nos especializamos en RHEEM, GOODMAN Y MUCHOS MÁS!
+                para que pueda superar ese calor de la Florida. Todos nuestros equipos cuentan con 
+                <span>10 Años de Garantia</span>, nos especializamos en RHEEM, GOODMAN Y MUCHOS MÁS!
                 </p>
             </div>      
         </div>    

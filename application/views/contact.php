@@ -4,16 +4,19 @@
 				<h2>Contacto</h2>
 				<ul>
 					<li>
-						<h3><span>Ventas :</span> <?=$contact->phone?></h3>
+						<h3><span>Ventas :</span> <?=$contact->phone?> Adrian</h3>
 					</li>
+					<li>
+						<span>Email :</span> <?=$contact->email?>
+					</li>	
 					<li>
 						<span>Direccion :</span> <?=$contact->addres?>
 					</li>			
 					<li>
 						<span>Licencia:</span> <?=$contact->lic?>
 					</li>
-					<li style="font-size:0.4em">
-						<span>Oficina :</span> <?=$contact->fax?>
+					<li style="font-size:1vw">
+						<span>Administracion :</span> <?=$contact->fax?>
 					</li>
 				</ul>
 				<div id="map"></div>

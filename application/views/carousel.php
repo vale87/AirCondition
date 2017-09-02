@@ -10,7 +10,7 @@
         <div class="carousel-caption black">
           <h2>$1,799</h2>
           <h3>Instalacion Goodman de 3tns con 14 SEER</h3>          
-          <p></p>
+          <p>10 Años de Garantia</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide1 -->
 
@@ -30,7 +30,7 @@
         <div class="carousel-caption black">
           <h2>$1,699</h2>
           <h3>Instalacion Rheem de 2tns con 14 SEER</h3>  
-          <p></p>
+          <p>10 Años de Garantia</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide2 -->
 

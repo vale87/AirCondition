@@ -74,7 +74,7 @@ $(document).ready(function(){
 <body>
      
     <div id="header">
-    <div id="language" class=" float_right">
+    <div id="langua" class=" float_right">
     <a href=<?php echo base_url(); ?>><span class="glyphicon glyphicon-refresh"></span> Español</a>
         </div>
         <div class="contentheader row between-xs middle-xs">            
@@ -93,7 +93,7 @@ $(document).ready(function(){
                         <a href="<?php echo base_url(); ?>index.php/en">Home</a>
                     </li>
                     <li>
-                        <a href=<?php echo base_url(); ?>#about>About</a>
+                        <a href="<?php echo base_url(); ?>index.php/en#about">About</a>
                     </li>
                     <li <?php if ($selected=="services") echo "class='selected'";?>>
                         <a href="<?php echo base_url(); ?>index.php/en/services">Services</a>

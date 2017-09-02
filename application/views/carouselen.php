@@ -10,7 +10,7 @@
         <div class="carousel-caption black">
           <h2>$1,799</h2>
           <h3>Installation Goodman of 3tns with 14 SEER</h3>          
-          <p></p>
+          <p>10 Year Warranty</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide1 -->
 
@@ -31,7 +31,7 @@ We have the best prices in all miami</h3>
         <div class="carousel-caption black">
           <h2>$1,699</h2>
           <h3>Installation Rheem of 2tns with 14 SEER</h3>  
-          <p></p>
+          <p>10 Year Warranty</p>
         </div><!-- /.carousel-caption -->
       </div><!-- /Slide2 -->
 

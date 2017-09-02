@@ -74,7 +74,7 @@ $(document).ready(function(){
 <body>
      
     <div id="header">
-    <div id="language" class=" float_right">
+    <div id="langua" class=" float_right">
     <a href="<?php echo base_url(); ?>index.php/en"> <span class="glyphicon glyphicon-refresh"></span> Ingles</a>
         </div>
         <div class="contentheader row between-xs middle-xs">            
